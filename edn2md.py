@@ -75,27 +75,7 @@ def parse_datoms(datoms):
     return [data for data in block_data.values() if data["string"] is not None]
 
 ### 读取 EDN 文件
-
-# PrismVision测试
-# edn_path = '/Users/lukesky/Library/Application Support/Roam Research/backups/PrismVision/backup-PrismVision-2022-04-18-16-14-16.edn' #基准 4M 11182
-## edn_path = '/Users/lukesky/工作台/backup-PrismVision-2022-10-27-20-29-00.edn' # 11234 47130、47132
-## edn_path = '/Users/lukesky/Library/Application Support/Roam Research/backups/PrismVision/backup-PrismVision-2023-12-21-02-44-08.edn' # 11234 47130、47132
-
-# Github测试
-# edn_path = '/Users/lukesky/Touch/Git/roam-snapshot/edn/HerbarySandbox.edn'
-## edn_path = '/Users/lukesky/Touch/Git/roam-snapshot/edn/InsightSphere.edn'
-## edn_path = '/Users/lukesky/Touch/Git/roam-snapshot/edn/PrismVision.edn'
-
-# Timeline测试
 edn_path = '/Users/lukesky/Library/Application Support/Roam Research/backups/InsightSphere/backup-InsightSphere-2023-12-20-15-02-50.edn'
-# edn_path = '/Users/lukesky/Library/Application Support/Roam Research/backups/PrismVision/backup-PrismVision-2023-12-22-03-39-43.edn'
-
-# 工作台测试
-# edn_path = '/Users/lukesky/工作台/edn2md5.edn'
-# edn_path = '/Users/lukesky/工作台/backup-PrismVision-2022-10-27-20-29-00.edn' # 11234 47130、47132
-# edn_path = '/Users/lukesky/工作台/backup-PrismVision-2023-12-22-03-39-43.edn'
-# edn_path = '/Users/lukesky/Library/Application Support/Roam Research/backups/PrismVision/backup-PrismVision-2023-12-22-17-59-56.edn'
-# edn_path = '/Users/lukesky/Library/Application Support/Roam Research/backups/PrismVision/backup-PrismVision-2023-11-12-18-10-44.edn'
 
 print(edn_path)
 
