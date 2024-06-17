@@ -1,4 +1,16 @@
-- 完成所有文本识别工作，暂未处理排序问题 2023-12-22
-- 尚存在BUG：对字段「{:block/children ...}」报错，正则/文本替换均无法解决；通过清空「roam/excalidraw」页面内容解决了这个问题。最新版的Timeline各个最新edn已经可以完全识别了，PrismVision历史版本需要删除该字段才能正确使用。
-- 通过去除文本「:entity/attrs #{}」实现了「{:block/children ...}」字段BUG的修复，至此，所有历史版本edn均实现读取。 2023-12-22 20:20
-- 形式上实现了edn2md，暂时还有部分文本存在顺序问题。 2023-12-22 22:25
+# EDN文件转换工具
+
+## 描述
+此 Python 脚本用于处理 EDN 文件，提取数据，进行数据清洗和转换，并将数据导出为 Markdown 和 HTML 格式。它支持复杂的数据结构处理，并处理自定义格式化，包括内联引用和 Markdown 语法的处理。
+
+## 功能
+- 在目录中获取并处理最新或指定日期的 EDN 文件。
+- 将 EDN 数据转换为类 JSON 结构，并处理层次化数据块。
+- 使用自定义格式在 Markdown 或 HTML 中导出数据。
+- 根据可自定义的白名单和黑名单过滤数据。
+- 优化大文件的性能处理。
+
+## 安装
+克隆此仓库到您的本地机器：
+```bash
+git clone https://github.com/yourusername/edn-file-processor.git
