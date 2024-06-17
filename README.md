@@ -13,4 +13,4 @@
 ## 安装
 克隆此仓库到您的本地机器：
 ```bash
-git clone https://github.com/yourusername/edn-file-processor.git
+git clone https://github.com/ideapply/edn-file-processor.git
