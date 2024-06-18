@@ -15,3 +15,7 @@
 克隆此仓库到您的本地机器：
 ```bash
 git clone https://github.com/ideapply/edn-file-processor.git
+```
+
+## 效果图
+![](https://cdn.jsdelivr.net/gh/ideapply/pichub@master/obsidian/202406181753386.png)
