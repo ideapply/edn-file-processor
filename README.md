@@ -18,4 +18,4 @@ git clone https://github.com/ideapply/edn-file-processor.git
 ```
 
 ## 效果图
-![](https://cdn.jsdelivr.net/gh/ideapply/pichub@master/obsidian/202406181753386.png)
+![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FInsightSphere%2FM_aaOYK3cf.png?alt=media&token=5758ef03-8d54-4800-804c-827faa796dfb)
