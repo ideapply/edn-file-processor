@@ -326,9 +326,9 @@ folder_path = '/Users/lukesky/Library/Application Support/Roam Research/backups/
 
 # 黑名单与白名单
 blocked_uids = ["uid1", "uid2", "uid3"]  # 需要屏蔽的页面UID列表
-# blocked_titles = ["W/S/roam/css", "title2", "title3"]  # 需要屏蔽的页面标题列表
-allowed_uids = ["Xj7YD_MxR", "", "mGBUMYZiW"]  # 需要显示的页面UID列表
-allowed_titles = ["W/S/roam/css","Inbo", "archai",  "审阅测试"]  # 需要显示的页面标题列表
+blocked_titles = ["W/S/roam/css", "title2", "title3"]  # 需要屏蔽的页面标题列表
+# allowed_uids = ["Xj7YD_MxR", "", "mGBUMYZiW"]  # 需要显示的页面UID列表
+# allowed_titles = ["W/S/roam/css","Inbo", "archai",  "审阅测试"]  # 需要显示的页面标题列表
 
 ## 导出文件夹
 output_path = '/Users/lukesky/RR/output'  # 替换为实际的文件夹路径
